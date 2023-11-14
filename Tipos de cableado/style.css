@@ -1,0 +1,348 @@
+header {
+    background-color: #6e6597; /* Color de fondo del encabezado */
+    color: #fff; /* Color de texto del encabezado */
+    padding: 10 px; /* Espaciado interior del encabezado */
+    text-align: center; /* Alineación del contenido en el centro */
+    background-color: #333; /* Color de fondo */
+            padding: 20px; /* Espaciado interno */
+   
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño de fuente del título */
+    margin: 0; /* Eliminar margen superior e inferior */
+    text-align: center;
+    
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style: none; /* Eliminar viñetas de lista */
+    padding: 0;
+    margin: 0;
+            display: flex; /* Para colocar los elementos en línea */
+            justify-content: space-around; /* Distribuye los elementos uniformemente */
+            text-align: center;
+    
+}
+
+nav ul li {
+    display: inline; /* Mostrar elementos de lista en línea */
+    margin-right: 10px; /* Espaciado entre elementos del menú */
+    margin: 0 10px; /* Márgenes entre elementos */
+    text-align: center;
+}
+
+nav ul li a:hover {
+            background-color: #777; /* Cambia el color de fondo al pasar el mouse por encima */
+            text-align: center;
+        }
+
+nav ul li a {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Quita el subrayado */
+            text-decoration: none; /* Quita el subrayado */
+            padding: 10px 15px; /* Añade relleno para crear botones */
+            border-radius: 5px; /* Borde redondeado */
+            background-color: #555; /* Color de fondo del botón */
+            transition: background-color 0.3s; /* Transición suave del color de fondo */
+            text-align: center;
+        
+}
+
+nav a {
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    color: #fff; /* Color de texto de los enlaces */
+    font-weight: bold; /* Texto en negrita */
+}
+
+nav a:hover {
+    text-decoration: none; /* Subrayar enlaces al pasar el mouse */
+}
+
+.hero {
+    background-image: url('https://media0.giphy.com/media/3osxY9kuM2NGUfvThe/200w.webp?cid=ecf05e47i8qj8hdl4gpizlocjhx200fj8px3zeqqpfmpucb9&ep=v1_gifs_search&rid=200w.webp&ct=g'); /* Establecer una imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño de la sección */
+    color: #fff; /* Color de texto en la sección "hero" */
+    text-align: center; /* Alinear el contenido al centro */
+    padding: 145px 0; /* Espaciado interior superior e inferior */
+   
+    
+}
+
+.hero h1 {
+    font-size: 36px; /* Tamaño de fuente del título */
+    margin: 0; /* Eliminar margen superior e inferior del título */
+}
+
+.hero p {
+    font-size: 18px; /* Tamaño de fuente del texto de descripción */
+    margin: 20px 0; /* Espaciado superior e inferior del texto de descripción */
+}
+
+/* Estilos para la llamada a la acción (CTA) */
+.cta-button {
+    display: inline-block; /* Hacer que el botón sea un elemento en línea */
+    background-color: #6e6597; /* Color de fondo del botón */
+    color: #ffffff; /* Color de texto del botón */
+    padding: 15px 30px; /* Espaciado interior del botón */
+    text-decoration: none; /* Eliminar subrayado de enlace */
+    border-radius: 5px; /* Redondear las esquinas del botón */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s; /* Transición de color de fondo al pasar el mouse */
+}
+
+.cta-button:hover {
+    background-color: #555; /* Cambiar color de fondo al pasar el mouse */
+}
+
+/* Estilos para la sección de dos columnas */
+.two-column-section {
+    
+    justify-content: space-between; /* Separar las columnas con espacio entre ellas */
+    align-items: center; /* Centrar verticalmente el contenido */
+    padding: 20px; /* Espaciado interior de la sección */
+    background-size: cover;
+}
+
+/* Estilos para la primera columna con la imagen */
+.column {
+    flex: 1; /* La columna se expande para ocupar el espacio disponible */
+
+    background-color: #3f5fa5;
+    color: white;
+}
+
+.image-container {
+    text-align: center; /* Alinear el contenido al centro */
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+
+.image-container img {
+    max-width: 100%; /* Asegurar que la imagen no se desborde del contenedor */
+    text-align: center;
+    
+}
+
+/* Estilos para la segunda columna con el título, descripción y enlace */
+.column {
+    flex: 5; /* La segunda columna también se expande */
+    padding: 15px; /* Espaciado interior de la columna */
+    background-color: #6e6597; /* Color de fondo de la columna */
+    border-radius: 5px; /* Redondear las esquinas de la columna */
+    
+   
+}
+
+.column h2 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin: 0; /* Eliminar margen superior e inferior del título */
+}
+
+.column p {
+    font-size: 16px; /* Tamaño de fuente del texto de descripción */
+}
+
+.column .cta-button {
+    display: inline-block; /* Hacer que el botón sea un elemento en línea */
+    background-color: #555; /* Color de fondo del botón */
+    color: #ffffff; /* Color de texto del botón */
+    padding: 10px 20px; /* Espaciado interior del botón */
+    text-decoration: none; /* Eliminar subrayado de enlace */
+    border-radius: 5px; /* Redondear las esquinas del botón */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s;
+}
+
+.column .cta-button:hover {
+    background-color: #777; /* Cambiar color de fondo al pasar el mouse */
+}
+
+/* Estilos para la sección de la galería de imágenes */
+.image-gallery {
+    text-align: center; /* Alinear el contenido al centro */
+    padding: 15px; /* Espaciado interior de la sección */
+    
+}
+
+.image-gallery h2 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin: 0 0 20px 0; /* Espaciado alrededor del título */
+    background-color: #a5a5ff;
+}
+
+/* Estilos para el contenedor de imágenes */
+.image-container {
+    display: grid; /* Utilizar un diseño de cuadrícula para las imágenes */
+    grid-template-columns: repeat(6, 1fr); /* Crear 8 columnas de igual tamaño */
+    gap: 20px; /* Espaciado entre las imágenes */
+    background-color: #6e6597;
+    border-radius: 5px;
+    padding: 15px; /* Espaciado interior de la sección */
+    font-weight: bold; /* Texto en negrita */   
+    
+}
+
+.image-container img {
+    max-width: 100%; /* Asegurar que las imágenes no se desborden de sus contenedores */
+    border: 1px solid #ccc; /* Agregar un borde ligero a las imágenes */
+    border-radius: 5px; /* Redondear las esquinas de las imágenes */
+    background-color: #a5a5ff;
+}
+
+/* Estilos para la sección del pie de página */
+.footer-section {
+    background-color: #a5a5ff; /* Color de fondo del pie de página */
+    color: #fff; /* Color de texto en el pie de página */
+    padding: 20px; /* Espaciado interior del pie de página */
+    
+}
+
+/* Estilos para las columnas del pie de página */
+.footer-column {
+    flex: 1; /* Hacer que las columnas se expandan por igual */
+    padding: 10px; /* Espaciado interior de las columnas */
+    
+}
+
+/* Estilos para los títulos de las columnas */
+.footer-column h3 {
+    font-size: 18px; /* Tamaño de fuente de los títulos */
+    margin: 0; /* Eliminar el margen superior e inferior de los títulos */
+    text-align: center;
+}
+
+/* Estilos para las listas de servicios y páginas legales */
+ul {
+    list-style: none; /* Eliminar viñetas de lista */
+    padding: 2; /* Eliminar el relleno de la lista */
+    
+}
+
+ul li {
+    margin-bottom: 5px; /* Espaciado entre elementos de la lista */
+    padding: 2; 
+}
+
+/* Estilos para los botones de redes sociales */
+.social-buttons {
+    display: flex; /* Mostrar botones en línea */
+    gap: 10px; /* Espaciado entre botones */
+}
+
+.social-button {
+    display: inline-block; /* Hacer que los botones sean elementos en línea */
+    background-color: #6e6597; /* Color de fondo de los botones */
+    color: #ffffff; /* Color de texto de los botones */
+    padding: 5px 10px; /* Espaciado interior de los botones */
+    text-decoration: none; /* Eliminar subrayado de enlace en los botones */
+    border-radius: 50px; /* Redondear las esquinas de los botones */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.social-button:hover {
+    background-color: #333; /* Cambiar color de fondo al pasar el mouse sobre los botones */
+    
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #a5a5ff;
+    
+    
+    
+}
+
+/* Estilo básico para los elementos de la lista */
+.toggle-list-item {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+    font-family: sans-serif;
+    border-radius: 100px;
+    transition: 0.5s;
+    max-height: 200px; /* Altura máxima deseada al hacer clic */
+    padding: 10px;     /* Ajusta el relleno según tus necesidades */
+    opacity: 5;       /* Opacidad completa al hacer clic */
+   
+}
+
+/* Cambio de color de fondo al pasar el mouse sobre los elementos de la lista */
+.toggle-list-item:hover {
+    background-color: #6e6597;
+    
+}
+
+
+/* Estilo para el contenido de los elementos de la lista que inicialmente está oculto */
+.toggle-list-content {
+    display: flow-root;
+    background-color: #6e6597;
+    padding: 10px;
+    transition: max-height 8.3s, padding 1.3s, opacity 2.3s;
+    max-height: 100;
+    overflow: hidden;
+    opacity: 100;
+    font-family: sans-serif;
+    
+    
+
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Espacio entre las imágenes */
+    }
+    
+    /* Estilo para cada imagen */
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s; /* Animación de transformación al pasar el mouse */
+    }
+    
+    .image img {
+        width: 500%; /* Asegura que la imagen se ajuste al contenedor */
+        display: block;
+        transition: transform 0.8s; /* Animación de transformación al pasar el mouse */
+    }
+    
+    /* Efecto de despliegue al pasar el mouse */
+    .image:hover {
+        transform: scale(1.0); /* Aumenta el tamaño al pasar el mouse */
+    }
+    
+    .image img:hover {
+        transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+    }
+    
+    .info-personal {
+
+        background-color: #6e6597;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .info-personal img {
+        border-radius: 50%; /* Para una imagen redonda */
+        width: 200px; /* Tamaño de la imagen */
+        height: 200px; /* Tamaño de la imagen */
+        object-fit: cover; /* Ajuste para que la imagen no pierda su relación de aspecto */
+        margin-bottom: 20px; /* Espacio debajo de la imagen */
+
+        }
+
+    
+
+
+
